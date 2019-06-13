@@ -1,0 +1,59 @@
+{
+  "development": {
+    "username": "mritunjay",
+    "password": "qwerty",
+    "database": "indi_rest_api",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging":false,
+    "define": {
+      "timestamps": false
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 40000,
+      "evict": 20000
+    }
+  },
+  "test": {
+    "username": "indilabz_jeeto",
+    "password": "qwerty",
+    "database": "indilabz_csell",
+    "host": "192.185.129.218",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": false
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 40000,
+      "evict": 20000
+    }
+  },
+  "production": {
+    "username": "indilabz_jeeto",
+    "password": "qwerty",
+    "database": "indilabz_csell",
+    "host": "192.185.129.218",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": false
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 40000,
+      "evict": 20000
+    }
+  },
+  "keys":{
+    "unique":"1234567890",
+    "secret":"qwertyuiop"
+  }
+}
+
