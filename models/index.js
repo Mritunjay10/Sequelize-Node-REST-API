@@ -3,7 +3,6 @@
 //sequelize-auto -o "./models" -d indi_rest_api -h localhost -u mritunjay -p 3306 -x qwerty -e mysql
 //sequelize-auto -o "./models" -d csell -h localhost -u root -p 3306 -x qwerty -e mysql
 //sequelize-auto -o "./models" -d indilabz_csell -h localhost -u csellnp -p 3306 -x csell@!!@@ -e mysql
-const ZongJi = require('zongji');
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
