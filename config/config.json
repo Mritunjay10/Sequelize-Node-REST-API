@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "mritunjay",
-    "password": "qwerty",
-    "database": "indi_rest_api",
+    "username": "root",
+    "password": "",
+    "database": "development_db",
     "host": "localhost",
     "dialect": "mysql",
     "logging":false,
@@ -18,10 +18,10 @@
     }
   },
   "test": {
-    "username": "indilabz_jeeto",
-    "password": "qwerty",
-    "database": "indilabz_csell",
-    "host": "192.185.129.218",
+    "username": "root",
+    "password": "",
+    "database": "test_db",
+    "host": "localhost",
     "dialect": "mysql",
     "define": {
       "timestamps": false
@@ -35,10 +35,10 @@
     }
   },
   "production": {
-    "username": "indilabz_jeeto",
-    "password": "qwerty",
-    "database": "indilabz_csell",
-    "host": "192.185.129.218",
+    "username": "root",
+    "password": "",
+    "database": "production_db",
+    "host": "localhost",
     "dialect": "mysql",
     "define": {
       "timestamps": false
